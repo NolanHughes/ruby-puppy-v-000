@@ -13,6 +13,6 @@ class Dog
   end
 
   def self.all
-    puts @name 
+    @@all.each { |dog| puts @name}
   end
 end
